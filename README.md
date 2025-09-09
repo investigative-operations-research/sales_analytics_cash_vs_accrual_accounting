@@ -1,6 +1,6 @@
-# sales_analytics_cash_vs_accrual_accounting
+![](slide_deck_summary.png)
 
-The Business ask
+# The Business ask
 
  
 
@@ -17,7 +17,7 @@ I mapped out the customer journey from buying a SIM card to activating it includ
  
 
  
-
+![](sales_pipeline.png)
  
 
  
@@ -25,7 +25,7 @@ I mapped out the customer journey from buying a SIM card to activating it includ
 I then did detailed sub-process maps BPMN-style for each of the above components which allowed me to also develop a data governance framework and highlighted several data gaps that required some data engineering pipelines and SQL table development work to enable the data science side of things.
 
  
-Overcoming obstacles
+# Overcoming obstacles
 
 Once the process flows were modelled in this way, I was able to then create the core data tables for reporting and analysis using SQL.
 
@@ -41,7 +41,7 @@ It was found that there was a lack of linking ID to complete the chain of order 
 
 In the meantime, in speaking with the O2A teams and doing my own analysis for reference, I found that around 95% of the orders were activated within 14 days - so I presented back to the finance team the situation and said I can create a historical view going back 3 years but it will be a proballistic model - they approved that and I created a synthetic link to do the matching end-to-end.
  
-The results
+# The results
 
  
 
@@ -53,7 +53,7 @@ Cohort modelling showed very quickly what promotions and products were winners a
 
  
 
-Report highlights:
+# Report highlights:
 
  
 * Per product/promotion drill downs
@@ -63,7 +63,7 @@ Report highlights:
 * Churn predictions using logistic regression to predict churn 30 days ahead
 
  
-Further applications
+# Further applications
 
  
 
